@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const App = () => {
   return (
     <>
       <h1>component</h1>
+      <h2>Hello World</h2>
     </>
   )
 }
