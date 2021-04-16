@@ -3,17 +3,19 @@
 [ ![Status][Badge-Status] ][Site-Page]
 [ ![Contributors][Badge-Contributors] ](#Contributors)
 
+Enter the Poke Store, a web app that allows you to...TBD
+
 ## Get Started
 
 1. clone repo
 ```md
-HTTPS  : git clone https://github.com/theroom404/web-app.git
+HTTPS  : git clone https://github.com/theroom404/poke-store.git
 
-SSH    : git clone git@github.com:theroom404/web-app.git
+SSH    : git clone git@github.com:theroom404/poke-store.git
 
-GH-CLI : gh repo clone theroom404/web-app
+GH-CLI : gh repo clone theroom404/poke-store
 ```
-2. `cd ./web-app`
+2. `cd ./poke-store`
 3. `npm install`
 4. `npm start`
 
@@ -38,14 +40,16 @@ GH-CLI : gh repo clone theroom404/web-app
 [`localForage`][localForage] / 
 [`normalize.css`][normalize-css] / 
 [`style-components`][style-components] /
+[`classnames`][classnames] /
 [`remix-icon`][remix-icon] /
 [`uuid`][uuid]
 
 ## Other Resources
 
-- [`Figma`][Figma]
-- [`Trello`][Trello]
-- Miro
+- Our Collaborative Tools
+  - [`Figma`][Figma]
+  - [`Trello`][Trello]
+  - Miro
 - Pokemon API
   - https://pokeapi.co/
   - https://pokeapi.co/api/v2/pokemon/{name/id}
@@ -57,12 +61,12 @@ GH-CLI : gh repo clone theroom404/web-app
 
 ## Contributors
 
-| Name  | Links   |
-| ----- | ------- |
-| **Michael F. Alvarez** | [ ![GitHub][Badge-GitHub] ][Micky-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Micky-LinkedIn] |
-| **Herman Liu** | [ ![GitHub][Badge-GitHub] ][Herman-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Herman-LinkedIn] |
-| **Martin Nguyen** | [ ![GitHub][Badge-GitHub] ][Martin-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Martin-LinkedIn] |
-| **Adnan Diaz** | [ ![GitHub][Badge-GitHub] ][Adnan-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Adnan-LinkedIn] |
+| Name  | Username  | Links |
+| ----- | --------- | ----- |
+| **Michael F. Alvarez** | awwmicky | [ ![GitHub][Badge-GitHub] ][Micky-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Micky-LinkedIn] |
+| **Herman Liu**         | hermsicle | [ ![GitHub][Badge-GitHub] ][Herman-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Herman-LinkedIn] |
+| **Martin Nguyen**      | - | [ ![GitHub][Badge-GitHub] ][Martin-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Martin-LinkedIn] |
+| **Adnan Diaz**         | - | [ ![GitHub][Badge-GitHub] ][Adnan-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Adnan-LinkedIn] |
 
 <!-- badge color: success | important | informational -->
 [Badge-Status]: https://img.shields.io/badge/Status-In_Development-informational?style=for-the-badge
@@ -70,7 +74,8 @@ GH-CLI : gh repo clone theroom404/web-app
 [Site-Page]: https://
 
 [Figma]: https://www.figma.com/file/teMV2bbWUKLSKlkn8NHn0I/Pokemon-Checkout-App?node-id=0%3A1
-[Google Docs]: https://
+[Trello]: https://trello.com/b/fz2gTMMX/poke-store
+[Google Docs]: ___
 
 [React]: https://reactjs.org/
 [Sass]: https://sass-lang.com/
@@ -82,10 +87,11 @@ GH-CLI : gh repo clone theroom404/web-app
 [Badge-React-Router-Dom]: https://img.shields.io/badge/-React_Router-CA4245.svg?style=for-the-badge&logo=React-Router&logoColor=FFF
 
 [localForage]: https://localforage.github.io/localForage/
-[style-components]: https://styled-components.com/
 [normalize-css]: https://necolas.github.io/normalize.css/
-[uuid]: https://www.npmjs.com/package/uuid
+[style-components]: https://styled-components.com/
+[classnames]: https://jedwatson.github.io/classnames/
 [remix-icon]: https://www.npmjs.com/package/remixicon-react
+[uuid]: https://www.npmjs.com/package/uuid
 
 [Badge-GitHub]: https://img.shields.io/badge/-GitHub-black.svg?style=for-the-badge&logo=GitHub&colorB=555
 [Badge-LinkedIn]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555

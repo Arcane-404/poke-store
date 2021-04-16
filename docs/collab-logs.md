@@ -6,10 +6,24 @@
 -->
 
 ## April - 15, Thursday
-- [ ] team: 
+- [x] team: brainstorm session
+  - [x] assigned tasks to do
+    - [x] Herman: setup react-router-dom
+    - [x] Micky: setup react app, folder structure
+    - [x] Martin: create Pokemon Info JSON file
+    - [x] Adnan: create style guide in Figma
+- [x] Herman: gave a walkthrough, how to use style-components
+- [x] Micky: gave a walkthrough, how to use git collab
+- [x] Adnan: created Desktop Hi-fi mockup home page via Figma
 
 ## April - 14, Wednesday
-- [ ] team: 
+- [x] team: brainstorm session
+  - [x] created Trello board
+    - [x] Task List / In-Progress / Review/Merge / Done
+  - [x] create Figma wireframe
+    - [x] mobile: home page / checkout page / favorites page
 
 ## April - 13, Tuesday
-- [ ] team: brainstorm
+- [x] team: brainstorm session
+  - [x] created project breakdown (whiteboard)
+    - [x] user journey / developer flow / folder structure / technologies used
