@@ -1,25 +1,32 @@
 # Collab Standards
 
 ## Consistency
-- files: `_.jsx`
+- files: `*.jsx`
 - variables: camelCase
 - components: PascalCase
   - funtional components - arrow fn
+    - `const App = () => {}`
+    - `export default App`
   - helper functions - declare fn
-- no semi-colons `;` in jsx files
-- single quotes `''`
+    - `function handleClick () {}`
+- no semi-colons ` ; ` in jsx files
+- single quotes ` '' `
+- include white spaces
+  - `{ useState, useEffect }`
+  - `[ state, setState ]`
 
-## Data
+## JSON Data
 ```json
+/* Pokemon Info (Card) */
 [
   {
-  "id": 1,
+    "id": 25,
   "pokemon": "pikachu",
   "isFavorite": false,
   "price": 10,
-  "description": "Ash's favorite Pokemon",
-  "type": ["electric"],
-  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png"
+  "types": ["electric"],
+  "description": "When several of these POKéMON gather, theirelectricity could build and cause lightning storms.",
+  "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
   },
   {...}
 ]
@@ -28,7 +35,6 @@
 ## Component
 ```jsx
 // rafce (shortcut)
-// with hooks
 import React, { useState, useEffect } from 'react'
 
 const Component = ({ num1, num2, num3 }) => {
