@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const App = () => {
   return (
     <>
       <h1>component</h1>
+
+      <h2>Hello World</h2>
+
       <h1>5 reasons why I love react</h1>
       <ul>
         <li>Its nice</li>
@@ -12,6 +15,7 @@ const App = () => {
         <li>Its very nice</li>
         <li>Its nice</li>
       </ul>
+
     </>
   )
 }
