@@ -1,8 +1,14 @@
 # Collab Standards
 
 ## Consistency
-- files: `*.jsx`
-- variables: camelCase
+- files: 
+  - react: `*.jsx`
+  - hook file: camelCase
+  - json file: camelCase
+- variables: 
+  - regular: camelCase
+  - fixed: CAP_SNAKE_CASE
+  - [read more](https://trungk18.com/experience/javascript-naming-convention/)
 - components: PascalCase
   - funtional components - arrow fn
     - `const App = () => {}`
@@ -32,7 +38,7 @@
 ]
 ```
 
-## Component
+## Component Setup
 ```jsx
 // rafce (shortcut)
 import React, { useState, useEffect } from 'react'
