@@ -11,19 +11,19 @@
 
 ## PART 2
 
-1. go to github > create `pull-request`
+1. go to GitHub > click `compare & pull request` > click `create pull request`
    - dev role has been completed
    - test role will review & merge
-2. you `send message to team member`
+2. you `send message` to team member
    - go to sidebar > click `Reviewers ⚙` > select reviewer
-   - copy URL link
+   - copy URL link (from address bar)
    - send `@name + message + URL` in messages
    - DONE
 3. [check workflow (During)](#daily-workflow)
 
 ## PART 3
 
-1. they `respond to message`
+1. they `respond to message` back to team member
    - [ EDIT ]
    - they will response back `@name + message` in messages
    - DONE
