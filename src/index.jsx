@@ -8,7 +8,7 @@ import './assets/test.css' // BORDERS
 
 ReactDOM.render(
   <StrictMode>
-    <App />
+      <App />
   </StrictMode>,
   document.getElementById('root')
 )
