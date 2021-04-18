@@ -11,29 +11,37 @@ html, body, #root {
 
 body {
   font: 400 1rem/1.5 sans-serif;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.025em;
 }
 
 /*  */
 
 h1, h2, h3 {
-  line-height: 1.25;
+  line-height: 1.15;
 }
 
-header ul {
+header ul,
+footer ul 
+{
   padding-left: unset;
   list-style: none;
 }
 
 a {
-  text-decoration: unset;
   color: inherit;
-  display: inline-block;
+  text-decoration: unset;
+  /* display: inline-block; */
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 select,
 button,
 input {
-  letter-spacing: inherit;
+  line-height: 1.15;
+  letter-spacing: 0.015em;
   outline: none;
 }
