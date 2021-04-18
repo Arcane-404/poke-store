@@ -11,11 +11,10 @@
 
 ## PART 2
 
-1. go to GitHub > click `compare & pull request` > click `create pull request`
-   - dev role has been completed
-   - test role will review & merge
-2. you `send message` to team member
-   - go to sidebar > click `Reviewers ⚙` > select reviewer
+1. go to GitHub > click `compare & pull request` 
+   - view sidebar > click `Reviewers ⚙` > select reviewer
+   - click `create pull request`
+2. you `send message` to a team member
    - copy URL link (from address bar)
    - send `@name + message + URL` in messages
    - DONE
@@ -23,13 +22,17 @@
 
 ## PART 3
 
-1. they `respond to message` back to team member
-   - [ EDIT ]
-   - they will response back `@name + message` in messages
+1. they review code from `pull request` in GitHub
+   - open link > click `add your review`
+   - select `review changes` > add `comment & approve` > click `submit review`
+2. they merge code in GitHub
+   - click `merge pull request` > click `confirm merge` > delete `branch`
+3. they `respond to message` back to the team member
+   - they will response `@name + message` in messages
    - DONE
-2. update code from master/main
+4. update code from master/main
    - go to terminal > `npm run update`
-3. create new branch
+5. create new branch
    - [repeat PART 1](#part-1)
 
 ## Daily Workflow
@@ -52,10 +55,8 @@
   - **green**: able to merge
   - **purple**: updated merge
   - **gray**: merge conflict
-- Handling Git Conflicts
+- Handling Git Conflicts...
   - message reviewer to meet up & resolve problem together
-  - [ EDIT ]
-- the only manual thing to do...
-   - you send a message for a tester to review
-   - they will then check, approve, & merge your code
-     - then reply back to you that updates are merged
+- the only manual work to do...
+   - dev role will be completed after sending `pull request`
+   - test role will `review & merge` upcoming code

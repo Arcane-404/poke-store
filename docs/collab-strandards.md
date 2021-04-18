@@ -5,10 +5,9 @@
   - react: `*.jsx`
   - hook file: camelCase
   - json file: camelCase
-- variables: 
+- JS variables: 
   - regular: camelCase
   - fixed: CAP_SNAKE_CASE
-  - [read more](https://trungk18.com/experience/javascript-naming-convention/)
 - components: PascalCase
   - funtional components - arrow fn
     - `const App = () => {}`
@@ -20,6 +19,11 @@
 - include white spaces
   - `{ useState, useEffect }`
   - `[ state, setState ]`
+- no. of tabs: `2 | 4`?
+
+<!-- - CSS variables: -->
+  <!-- - BEM (Block-Element-Modifier) -->
+  <!-- - `[block]__[element]--[modifier]` -->
 
 ## JSON Data
 ```json
