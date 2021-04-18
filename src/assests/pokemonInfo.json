@@ -6,7 +6,7 @@
         "isFavorite": false,
         "price": 10.00,
         "description": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two."
-    }
+    },
 
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "isFavorite": false,
         "price": 10.00,
         "description": "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey."
-    }
+    },
 
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "isFavorite": false,
         "price": 10.00,
         "description": "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier."
-    }
+    },
 
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "isFavorite": false,
         "price": 10.00,
         "description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames."
-    }
+    },
 
     {
         "id": 5,
@@ -38,7 +38,7 @@
         "isFavorite": false,
         "price": 10.00,
         "description": "When this Pokémon becomes angry, its pores secrete a poisonous sweat, which it sprays at its opponent’s eyes."
-    }
+    },
 
     {
         "id": 6,
