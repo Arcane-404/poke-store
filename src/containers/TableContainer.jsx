@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { v4 as uuid } from 'uuid'
+import { AddLineIcon, SubtractLineIcon, CloseLineIcon } from '../components/Icons/'
 import { Table } from '../components/'
 import pokemonInfo from '../assets/pokemonInfo'
 
@@ -22,7 +23,8 @@ const TableContainer = () => {
               key={ uuid() } 
               item={ item }
               idx={ idx }
-              removeFromCart={ removeFromCart } />
+              removeFromCart={ removeFromCart } 
+            />
           ))}        
         </Table.TBody>
       </Table.TableFrame>
@@ -32,9 +34,9 @@ const TableContainer = () => {
 
 const Row = ({ item, idx, removeFromCart }) => {
   const [ counter, setCounter ] = useState(item.quantity)
-  const decrement = (e) => setCounter(counter - 1)
-  const increment = (e) => setCounter(counter + 1)
-  const handleCounter = (e) => setCounter(e.target.value)
+  const decrement = (e) => (counter > 1) && setCounter(counter - 1)
+  const increment = (e) => (counter < 10) && setCounter(counter + 1)
+  const handleCounter = (e) => setCounter(+e.target.value)
   
   return (
     <Table.Row>
@@ -46,20 +48,27 @@ const Row = ({ item, idx, removeFromCart }) => {
       </Table.Column>
       <Table.Column>{ item.pokemon }</Table.Column>
       <Table.Column>
-        <button onClick={ decrement }> - </button>
+        <button 
+          onClick={ decrement }
+        ><SubtractLineIcon size="1em" /> 
+        </button>
         <input 
           type="number" 
           value={ counter } 
           onChange={ handleCounter } 
         />
-        <button onClick={ increment } > + </button>
+        <button 
+          onClick={ increment } 
+        ><AddLineIcon size="1em" />
+        </button>
       </Table.Column>
-      <Table.Column>{ item.price }</Table.Column>
+      <Table.Column>${ item.price }</Table.Column>
       <Table.Column>
         <button 
           data-id={ idx }
           onClick={ removeFromCart }
-        > x </button>
+        ><CloseLineIcon size="1em" /> 
+        </button>
       </Table.Column>
     </Table.Row>
   )

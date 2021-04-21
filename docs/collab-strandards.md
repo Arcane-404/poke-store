@@ -21,9 +21,11 @@
   - `[ state, setState ]`
 - no. of tabs: `2 | 4`?
 
-<!-- - CSS variables: -->
-  <!-- - BEM (Block-Element-Modifier) -->
-  <!-- - `[block]__[element]--[modifier]` -->
+<!-- 
+- CSS variables: 
+  - BEM (Block-Element-Modifier) 
+  - `[block]__[element]--[modifier]` 
+-->
 
 ## JSON Data
 ```json
