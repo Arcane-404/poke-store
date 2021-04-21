@@ -5,6 +5,7 @@ import 'normalize-css'
 import './assets/reset.css'
 import './assets/variables.scss'
 import './assets/test.css' // BORDERS
+import './assets/colors.css'
 
 ReactDOM.render(
   <StrictMode>

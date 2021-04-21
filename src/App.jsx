@@ -1,6 +1,10 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import {BrowserRouter as Router} from 'react-router-dom'
+import Home from './pages/Home'
+import Cart from './pages/Cart'
+import Favorites from './pages/Favorites'
+import Error from './pages/Error'
 
 const App = () => {
   return (
@@ -8,10 +12,16 @@ const App = () => {
     <Router>
       <Switch>
           <Route exact path='/'>
-            <h1>Home Page</h1>
+            <Home/>
           </Route>
           <Route path='/cart'>
-            <h1>Cart Page</h1>
+            <Cart/>
+          </Route>
+          <Route path='/favorites'>
+            <Favorites/>
+          </Route>
+          <Route to='/error'>
+            <Error/>
           </Route>
         </Switch>
     </Router>

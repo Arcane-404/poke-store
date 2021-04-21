@@ -1,0 +1,11 @@
+:root {
+    --header-bg: #F4CD20;
+    --hero-bg: #212121;
+    --main-bg: #F2F2F2;
+    --card-bg: #FFFFFF;
+    --price-tag-bg: #F3D77B;
+    --add-to-cart-bg: #D5212B;
+    --text-color: #5E5E5E;
+    --success-msg-bg: #73BD62;
+    --error-msg-bg: #EB5F5F;
+}
