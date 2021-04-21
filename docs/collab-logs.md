@@ -5,6 +5,23 @@
 - [ ] Name: task
 -->
 
+## April - 20, Tuesday
+- [x] team: scrum meeting
+  - [ ] assigned tasks to do
+    - [x] Herman: handle header component
+    - [ ] Martin: create pokemonCart.json
+    - [ ] Micky: handle Table component
+    - [ ] Adnan: continue creating style guide
+- [x] Herman:
+  - [x] creates pages: Home / Favorites / Cart / Error
+- [x] Micky: 
+  - [x] tested custom Hook: useFetchData & FetchReducer
+  - [x] created custom Hook: useStorage
+  - [x] created helper functions
+- [x] Adnan:
+  - [x] created frame: home page (mobile & desktop)
+  - [x] created frame: checkout page (mobile & desktop)
+
 ## April - 15, Thursday
 - [x] team: brainstorm session
   - [x] assigned tasks to do

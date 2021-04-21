@@ -36,6 +36,7 @@ a {
 img {
   width: 100%;
   height: auto;
+  vertical-align: bottom;
 }
 
 select,
@@ -45,3 +46,7 @@ input {
   letter-spacing: 0.015em;
   outline: none;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{ appearance: none; }
