@@ -4,47 +4,59 @@
         "id": 1,
         "pokemon": "Greninja",
         "isFavorite": false,
+        "quantity": 1,
         "price": 10.00,
-        "description": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two."
+        "description": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png"
     },
 
     {
         "id": 2,
         "pokemon": "Lucario",
         "isFavorite": false,
+        "quantity": 1,
         "price": 10.00,
-        "description": "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey."
+        "description": "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
     },
 
     {
         "id": 3,
         "pokemon": "Mimikyu",
         "isFavorite": false,
+        "quantity": 1,
         "price": 10.00,
-        "description": "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier."
+        "description": "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png"
     },
 
     {
         "id": 4,
         "pokemon": "Charizard",
         "isFavorite": false,
+        "quantity": 1,
         "price": 10.00,
-        "description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames."
+        "description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
     },
 
     {
         "id": 5,
         "pokemon": "Umbreon",
         "isFavorite": false,
+        "quantity": 1,
         "price": 10.00,
-        "description": "When this Pokémon becomes angry, its pores secrete a poisonous sweat, which it sprays at its opponent’s eyes."
+        "description": "When this Pokémon becomes angry, its pores secrete a poisonous sweat, which it sprays at its opponent’s eyes.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
     },
 
     {
         "id": 6,
         "pokemon": "Sylveon",
         "isFavorite": false,
+        "quantity": 1,
         "price": 10.00,
-        "description": "By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict."
+        "description": "By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
     }
 ]
