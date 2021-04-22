@@ -7,6 +7,7 @@ const CardsContainer = () => {
 
     const { allPokemons } = PokemonConsumer()
 
+
     return (
         <Cards>
             <Cards.Inner>
