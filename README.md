@@ -42,7 +42,7 @@ useEffect /
 useContext
 - other: 
 [`localForage`][localForage] / 
-<!-- [`normalize.css`][normalize-css] /  -->
+[`normalize.css`][normalize-css] / 
 [`styled-components`][styled-components] /
 [`classnames`][classnames] /
 [`remix-icon`][remix-icon] /

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import {BrowserRouter as Router} from 'react-router-dom'
-import { Home, Cart, Favorites, Error } from './pages/'
+import { Home, Checkout, Favorites, Error } from './pages/'
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
           <Home/>
         </Route>
         <Route path='/cart'>
-          <Cart/>
+          <Checkout/>
         </Route>
         <Route path='/favorites'>
           <Favorites/>

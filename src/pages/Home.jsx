@@ -5,11 +5,10 @@ import HeroContainer from '../containers/HeroContainer'
 import CardsContainer from '../containers/CardsContainer'
 
 const Home = () => {
-  
     return (
         <>
             <HeaderContainer />
-            <HeroContainer title={ "Poke Shop" } subtitle={ "Home Page" } />
+            <HeroContainer title={ "Poke Store" } subtitle={ "Home Page" } />
             <CardsContainer />
         </>
     )
