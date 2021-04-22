@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { Link as ReachRouterLink } from 'react-router-dom'
+// import { Link as ReachRouterLink } from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
 export const Container = styled.div`
     background: var(--header-bg);
@@ -20,6 +21,6 @@ export const LinksFrame = styled.div`
     align-items: center;
 `
 
-export const Links = styled(ReachRouterLink)`
+export const Links = styled(Link)`
     margin: 1rem;
 `

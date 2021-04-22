@@ -1,5 +1,6 @@
 import React from 'react'
-import { Header } from '../components/'
+import { Header } from '../components'
+import { HeartFillIcon , ShoppingCartFillIcon } from '../components/Icons/index'
 
 const HeaderContainer = () => {
     return (
@@ -8,10 +9,10 @@ const HeaderContainer = () => {
                 <Header.Logo to='/'>PokeApp</Header.Logo>
                 <Header.LinksFrame>
                     <Header.Links to='/favorites'>
-                        <i class="ri-heart-fill"></i>Favorites
+                        <HeartFillIcon/>
                     </Header.Links>
                     <Header.Links to='/cart'>
-                        <i class="ri-shopping-cart-fill"></i>    Carts
+                        <ShoppingCartFillIcon/>
                     </Header.Links>
                 </Header.LinksFrame>
             </Header.Inner>
