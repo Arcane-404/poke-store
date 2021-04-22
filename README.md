@@ -36,9 +36,13 @@ GH-CLI : gh repo clone theroom404/poke-store
 [ ![JavaScript][Badge-JavaScript] ][JavaScript]
 [ ![Sass][Badge-Sass] ][Sass]
 [ ![React-Router-Dom][Badge-React-Router-Dom] ][React-Router-Dom]
+- hooks:
+useState /
+useEffect / 
+useContext
 - other: 
 [`localForage`][localForage] / 
-[`normalize.css`][normalize-css] / 
+<!-- [`normalize.css`][normalize-css] /  -->
 [`styled-components`][styled-components] /
 [`classnames`][classnames] /
 [`remix-icon`][remix-icon] /

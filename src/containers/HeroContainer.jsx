@@ -1,15 +1,11 @@
 import React from 'react'
 import { Hero } from '../components'
 
-const HeroContainer = ({title, subtitle}) => {
+const HeroContainer = ({ title, subtitle }) => {
     return (
         <Hero>
-            <Hero.Title>
-                { title }
-            </Hero.Title>
-            <Hero.Subtitle>
-                { subtitle }
-            </Hero.Subtitle>
+            <Hero.Title>{ title }</Hero.Title>
+            <Hero.Subtitle>{ subtitle }</Hero.Subtitle>
         </Hero>
     )
 }
