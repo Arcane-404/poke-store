@@ -1,11 +1,10 @@
-// export { default as Header } from './header/index'
-// import Icons from './Icons/'
 import Header from './header'
 import Table from './Table/'
+import Hero from './Hero'
 
 
-export {
-  // Icons, 
+export { 
   Header,
   Table,
+  Hero,
 }
