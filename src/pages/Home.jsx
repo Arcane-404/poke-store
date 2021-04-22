@@ -1,7 +1,12 @@
 import React from 'react'
-import HeaderContainer from '../containers/HeaderContainer'
+import HeaderContainer from '../containers/HeaderContainer.jsx'
+import {PokemonConsumer} from '../utils/PokemonContext'
+
 
 const Home = () => {
+    const {allPokemons} = PokemonConsumer()
+    console.log(allPokemons)
+    
     return (
         <>
             <HeaderContainer/>

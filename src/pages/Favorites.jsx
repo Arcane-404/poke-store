@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderContainer from '../containers/HeaderContainer'
+import HeaderContainer from '../containers/HeaderContainer.jsx'
 
 const Favorites = () => {
     return (
