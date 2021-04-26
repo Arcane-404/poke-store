@@ -29,10 +29,27 @@ function PokemonContextProvider({ children }) {
         setAllCartItems( newCart )
     }
 
+    //ToggleFavorite Feature
+    const toggleFavorite = id => {
+        // console.log(id)
+        const updatedFavorites = allPokemons.map( pokemon => {
+            if(pokemon.id === id) {
+                return {
+                    ...pokemon,
+                    isFavorite: !pokemon.isFavorite
+                }
+            }
+            return pokemon
+        })
+        setAllPokemons(updatedFavorites)
+    }
+    // console.log(allPokemons)
+
     const value = { 
         allPokemons, setAllPokemons,
         allCartItems, setAllCartItems, 
-        removeItemFromCart, updateItemFromCart
+        removeItemFromCart, updateItemFromCart,
+        toggleFavorite
     }
     
     return (
