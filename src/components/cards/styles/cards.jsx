@@ -6,9 +6,16 @@ export const Inner = styled.div`
     max-width: 1100px;
     margin: 100px auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    // border: 1px solid black;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+
+
+    @media (min-width: 800px) {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
 `
 
 export const Card = styled.div`

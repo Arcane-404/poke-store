@@ -20,9 +20,11 @@ Cards.Image = function CardsImage({ children, ...restProps }) {
         <Image {...restProps} />
     )
 }
-Cards.Favorite = function CardsFavorite({ children, ...restProps }) {
+Cards.Favorite = function CardsFavorite({ id, children, ...restProps }) {
     return (
-        <Favorite {...restProps}> { children } </Favorite>
+        <Favorite {...restProps}> 
+            { children } 
+        </Favorite>
     )
 }
 Cards.Price = function CardsPrice({ children, ...restProps }) {
