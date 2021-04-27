@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderContainer, HeroContainer, TableContainer } from '../containers/'
+import { HeaderContainer, HeroContainer, TableContainer, TotalContainer } from '../containers/'
 
 const Cart = () => {
     return (
@@ -7,6 +7,7 @@ const Cart = () => {
             <HeaderContainer />
             <HeroContainer title={ "Poke Store" } subtitle={ "Cart Page" } />
             <TableContainer />
+            <TotalContainer />
         </>
     )
 }

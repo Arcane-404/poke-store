@@ -4,45 +4,40 @@ import { SubtractLineIcon, AddLineIcon, CloseLineIcon } from '../components/Icon
 import { Table } from '../components/'
 
 const TableContainer = () => {
-  // removeFromCart
-  const { allCartItems } = PokemonConsumer()
+  const { 
+    allCartItems, removeItem, 
+    decrementItem, incrementItem, 
+    updateItemValue 
+  } = PokemonConsumer()
 
   return (
     <Table>
-      <Table.TableFrame>
+      <Table.Frame>
         <Table.TBody>
           { allCartItems && allCartItems.map((item,idx) => (
             <Table.Row key={ uuid() }>
               <Table.Column>
-                <Table.Image 
-                  src={ item.image } 
-                  alt={ `pokemon-${ item.pokemon }` }
-                />
+                <Table.Image src={ item.image } alt={ `pokemon-${ item.pokemon }` } />
               </Table.Column>
 
               <Table.Column> { item.pokemon } </Table.Column>
               
               <Table.Column>
-                <Table.Button action={ 'decrement' } data-id={ idx }> 
-                  <SubtractLineIcon size="1em" />  
-                </Table.Button>
-                <Table.Input type="number" data-id={ idx } value={ item.quantity } />
-                <Table.Button action={ 'increment' } data-id={ idx }> 
-                  <AddLineIcon size="1em" />  
-                </Table.Button>  
+                <Table.Button data-id={ idx } onClick={ decrementItem }> <SubtractLineIcon /> </Table.Button>
+                {/* <Table.Input type="number" data-id={ idx } value={ item.quantity } readOnly /> */}
+                <Table.Input type="number" data-id={ idx } value={ item.quantity } onChange={ updateItemValue } />
+                <Table.Button data-id={ idx } onClick={ incrementItem }> <AddLineIcon /> </Table.Button>  
               </Table.Column>
               
               <Table.Column> $ { item.price } </Table.Column>
               
               <Table.Column>
-                <Table.Button  action={ 'remove' } data-id={ idx }> 
-                  <CloseLineIcon size="1em" />  
-                </Table.Button>
+                <Table.Button data-id={ idx } onClick={ removeItem }> <CloseLineIcon /> </Table.Button>
               </Table.Column>
             </Table.Row>
           ))}        
         </Table.TBody>
-      </Table.TableFrame>
+      </Table.Frame>
     </Table>
   )
 }
