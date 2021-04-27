@@ -1,13 +1,13 @@
 import { StrictMode } from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
 import 'normalize-css'
-import './assets/styles/reset.css'
-import './assets/styles/test.css' // BORDERS
-import './assets/styles/colors.css'
+import './assets/styles/test.scss' // BORDERS
+import './assets/styles/reset.scss'
+import './assets/styles/colors.scss'
 import App from './App'
 import { PokemonContextProvider } from './utils/PokemonContext'
 
-ReactDOM.render(
+render(
   <StrictMode>
     <PokemonContextProvider>
       <App />

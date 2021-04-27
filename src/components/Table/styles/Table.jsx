@@ -4,7 +4,7 @@ export const Container = styled.section``
 
 // TableFrame, TBody, Row, Column
 
-export const TableFrame = styled.table`
+export const Frame = styled.table`
   border: 5px solid silver;
   margin: 0 auto;
 `
@@ -26,6 +26,10 @@ export const Image = styled.img`
   width: 100px;
 `
 export const Input = styled.input`
+  border: 3px solid silver;
   width: 50%;
+  &:focus {
+    border-color: black;
+  }
 `
 export const Button = styled.button``
