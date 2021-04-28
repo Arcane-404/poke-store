@@ -6,8 +6,7 @@ import { Table } from '../components/'
 const TableContainer = () => {
   const { 
     allCartItems, removeItem, 
-    decrementItem, incrementItem, 
-    updateItemValue 
+    decrementItem, incrementItem
   } = PokemonConsumer()
 
   return (
@@ -24,8 +23,7 @@ const TableContainer = () => {
               
               <Table.Column>
                 <Table.Button data-id={ idx } onClick={ decrementItem }> <SubtractLineIcon /> </Table.Button>
-                {/* <Table.Input type="number" data-id={ idx } value={ item.quantity } readOnly /> */}
-                <Table.Input type="number" data-id={ idx } value={ item.quantity } onChange={ updateItemValue } />
+                <Table.Input type="number" data-id={ idx } value={ item.quantity } readOnly />
                 <Table.Button data-id={ idx } onClick={ incrementItem }> <AddLineIcon /> </Table.Button>  
               </Table.Column>
               
