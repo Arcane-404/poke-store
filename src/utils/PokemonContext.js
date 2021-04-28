@@ -10,7 +10,7 @@ const PokemonConsumer = () => useContext(PokemonContext)
 function PokemonContextProvider({ children }) {
 
     const [ allPokemons, setAllPokemons ] = useState( pokemonInfo )
-    const [ allCartItems, setAllCartItems ] = useState( null )
+    const [ allCartItems, setAllCartItems ] = useState( pokemonCart )
     const [ totalCost, setTotalCost ] = useState(0)
     const [ allFavorites, setAllFavorites ] = useState([])
 
@@ -72,10 +72,10 @@ function PokemonContextProvider({ children }) {
         getTotalCost()
     }, [ getTotalCost ])
 
-    useEffect(() => {
+    // useEffect(() => {
     //     setAllPokemons( pokemonInfo )
-        setAllCartItems( pokemonCart )
-    }, [ ])
+        // setAllCartItems( pokemonCart )
+    // }, [ ])
 
     const value = { 
         allPokemons, setAllPokemons,
