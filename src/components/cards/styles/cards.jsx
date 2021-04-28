@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
-export const Container = styled.div``
+export const Container = styled.div`
+    padding-bottom: 100px;
+`
 
 export const Inner = styled.div`
     max-width: 1100px;
     margin: 100px auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    // border: 1px solid black;
     align-items: center;
 
 
@@ -20,7 +22,7 @@ export const Inner = styled.div`
 
 export const Card = styled.div`
     width: 300px; 
-    // height: 360px;
+    height: 400px;
     // border: 1px solid black;
     border-radius: 1rem; 
     position: relative;
@@ -37,8 +39,8 @@ export const Image = styled.img`
 
 export const Favorite = styled.i`
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 10px;
+    top: 10px;
     cursor: pointer;
 `
 
