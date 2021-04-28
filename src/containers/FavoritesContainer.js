@@ -1,25 +1,16 @@
 import React from 'react'
 import { Cards } from '../components/'
 import { PokemonConsumer } from '../utils/PokemonContext'
-import { HeartLineIcon, HeartFillIcon } from '../components/Icons/index'
+const FavoritesContainer = () => {
 
-const CardsContainer = () => {
-
-    const { allPokemons, toggleFavorite, addToCart } = PokemonConsumer()
+    const { allFavorites, addToCart } = PokemonConsumer()
 
     return (
         <Cards>
             <Cards.Inner>
-                {allPokemons.map( ( pokemon ) => (
+                {allFavorites.map( ( pokemon ) => (
                     <Cards.Card key={ pokemon.id }>
                         <Cards.Image src={ pokemon.image }/>
-                        <Cards.Favorite> 
-                            {
-                                pokemon.isFavorite === true  
-                                ? <HeartFillIcon onClick={ () => toggleFavorite(pokemon.id, pokemon)}/>
-                                : <HeartLineIcon onClick={ () => toggleFavorite(pokemon.id, pokemon)}/>
-                            }
-                        </Cards.Favorite>
                         <Cards.Price> $ { pokemon.price } </Cards.Price>
                         <Cards.Name> { pokemon.pokemon } </Cards.Name>
                         <Cards.Body> { pokemon.description } </Cards.Body>
@@ -31,4 +22,4 @@ const CardsContainer = () => {
     )
 }
 
-export default CardsContainer
+export default FavoritesContainer

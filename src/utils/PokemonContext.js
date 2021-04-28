@@ -12,6 +12,7 @@ function PokemonContextProvider({ children }) {
     const [ allPokemons, setAllPokemons ] = useState( pokemonInfo )
     const [ allCartItems, setAllCartItems ] = useState( null )
     const [ totalCost, setTotalCost ] = useState(0)
+    const [ allFavorites, setAllFavorites ] = useState([])
 
     const removeItem = (e) => {
         let newCart = [...allCartItems]
@@ -35,8 +36,9 @@ function PokemonContextProvider({ children }) {
     }
 
     //ToggleFavorite Feature
-    const toggleFavorite = id => {
+    const toggleFavorite = (id, pokemon) => {
         // console.log(id)
+        // console.log(pokemon)
         const updatedFavorites = allPokemons.map( pokemon => {
             if(pokemon.id === id) {
                 return {
@@ -47,8 +49,14 @@ function PokemonContextProvider({ children }) {
             return pokemon
         })
         setAllPokemons(updatedFavorites)
+        setAllFavorites(prevFavorites => [...prevFavorites, pokemon])
     }
-    // console.log(allPokemons)
+    // console.log(allFavorites)
+
+    const addToCart = (pokeToCart) => {
+        setAllCartItems(prevItems => [...prevItems, pokeToCart])
+    }
+    // console.log(allCartItems)
 
     const getTotalCost = useCallback(() => {
         const totalPrice = allCartItems && allCartItems.reduce((total, curr) => {
@@ -74,7 +82,8 @@ function PokemonContextProvider({ children }) {
         allCartItems, setAllCartItems, 
         totalCost, removeItem, 
         decrementItem, incrementItem, 
-        toggleFavorite
+        toggleFavorite, addToCart, 
+        allFavorites, setAllFavorites
     }
     
     return (
