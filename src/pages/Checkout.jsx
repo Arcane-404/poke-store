@@ -5,7 +5,7 @@ const Cart = () => {
     return (
         <>
             <HeaderContainer />
-            <HeroContainer title={ "Poke Store" } subtitle={ "Cart Page" } />
+            <HeroContainer title={ "Poke Store" } subtitle={ "Checkout" } />
             <TableContainer />
             <TotalContainer />
         </>

@@ -2,14 +2,17 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
     border: 5px solid silver;
+    background: var(--hero-bg);
+    text-align: center;
+    padding: 0.5em 0 1em;
 `
 
 export const Title = styled.h2`
-    color: green;
-    text-align: center;
+    color: var(--card-bg);
+    font-size: 2.625rem;
+    font-weight: 900;
 `
 
 export const Subtitle = styled.h3`
-    color: blue;
-    text-align: center;
+    color: var(--main-bg);
 `

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  border: 5px solid black;
   display: flex;
   justify-content: center;
 `
@@ -9,6 +8,50 @@ export const Container = styled.div`
 export const Frame = styled.div`
   border: 3px solid silver;
   text-align: center;
+  display: flex;
+  flex-flow: wrap;
 `
-export const Text = styled.h3``
-export const Button = styled.button``
+
+export const Text = styled.h3`
+  border: 1px solid #000;
+  order: 1;
+  font-size: 1.5rem;
+  flex-basis: 100%;
+`
+
+export const Button = styled.button`
+  border: unset;
+  border-radius: 0.3em;
+  font-size: 1.125rem;
+  width: 100%;
+  /* width: 275px; */
+  height: 45px;
+  margin: 1em;
+  background: var(--price-tag-bg);
+
+  &:nth-child(2) {
+    order: 3;
+  }
+  &:nth-child(3) {
+    order: 2;
+  }
+
+  &:hover {
+    background: var(--header-bg);
+  }
+  &:active {
+    background: var(--price-tag-bg);
+  }
+
+  @media (min-width: 600px) {
+    flex: 1;
+    max-width: 275px;
+  
+    &:nth-child(2) {
+      order: 2;
+    }
+    &:nth-child(3) {
+      order: 3;
+    }
+  }
+`
