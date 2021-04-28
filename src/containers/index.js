@@ -1,13 +1,5 @@
-import CardContainer from './CardsContainer'
-import HeaderContainer from './HeaderContainer'
-import HeroContainer from './HeroContainer'
-import TableContainer from './TableContainer'
-import TotalContainer from './TotalContainer'
-
-export {
-  CardContainer,
-  HeaderContainer,
-  HeroContainer,
-  TableContainer,
-  TotalContainer
-}
+export { default as CardContainer } from './CardsContainer'
+export { default as HeaderContainer } from './HeaderContainer'
+export { default as HeroContainer } from './HeroContainer'
+export { default as TableContainer } from './TableContainer'
+export { default as TotalContainer } from './TotalContainer'
