@@ -19,18 +19,18 @@ const TableContainer = () => {
                 <Table.Image src={ item.image } alt={ `pokemon-${ item.pokemon }` } />
               </Table.Column>
 
-              <Table.Column> { item.pokemon } </Table.Column>
+              <Table.Column> <h2>{ item.pokemon }</h2> </Table.Column>
               
               <Table.Column>
-                <Table.Button data-id={ idx } onClick={ decrementItem }> <SubtractLineIcon /> </Table.Button>
-                <Table.Input type="number" data-id={ idx } value={ item.quantity } readOnly />
-                <Table.Button data-id={ idx } onClick={ incrementItem }> <AddLineIcon /> </Table.Button>  
+                <Table.Button onClick={ () => decrementItem(idx) }> <SubtractLineIcon /> </Table.Button>
+                <Table.Input type="number" value={ item.quantity } readOnly />
+                <Table.Button onClick={ () => incrementItem(idx) }> <AddLineIcon /> </Table.Button>  
               </Table.Column>
               
-              <Table.Column> $ { item.price } </Table.Column>
+              <Table.Column> <p>{ item.price * item.quantity }</p> </Table.Column>
               
               <Table.Column>
-                <Table.Button data-id={ idx } onClick={ removeItem }> <CloseLineIcon /> </Table.Button>
+                <Table.Button onClick={ () => removeItem(idx) }> <CloseLineIcon size="30" /> </Table.Button>
               </Table.Column>
             </Table.Row>
           ))}        
