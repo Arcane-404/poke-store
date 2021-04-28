@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <>
             <HeaderContainer />
-            <HeroContainer title={ "Poke Store" } subtitle={ "Home Page" } />
+            <HeroContainer title={ "Poke Store" } subtitle={ "Home" } />
             <CardsContainer />
         </>
     )

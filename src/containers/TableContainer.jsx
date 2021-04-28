@@ -4,10 +4,8 @@ import { SubtractLineIcon, AddLineIcon, CloseLineIcon } from '../components/Icon
 import { Table } from '../components/'
 
 const TableContainer = () => {
-  const { 
-    allCartItems, removeItem, 
-    decrementItem, incrementItem
-  } = PokemonConsumer()
+  
+  const { allCartItems, removeItem,decrementItem, incrementItem } = PokemonConsumer()
 
   return (
     <Table>
