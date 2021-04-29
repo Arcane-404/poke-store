@@ -20,6 +20,8 @@ const FavoritesContainer = () => {
                             <Cards.Button onClick={() => addToCart(pokemon)}> Add To Cart </Cards.Button>
                         </Cards.Card>
                         )
+                    } else {
+                        return null
                     }
                 })}
             </Cards.Inner>

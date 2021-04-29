@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Header } from '../components/'
 import { PokemonConsumer } from '../utils/PokemonContext'
 import { HeartFillIcon, ShoppingCartFillIcon, HomeHeartFillIcon } from '../components/Icons/'
@@ -6,16 +6,22 @@ import { HeartFillIcon, ShoppingCartFillIcon, HomeHeartFillIcon } from '../compo
 const HeaderContainer = () => {
 
     const { allPokemons, allCartItems } = PokemonConsumer()
+    const [totalFavorites, setTotalFavorites] = useState(0)
 
     const allCartItemsNumber = allCartItems.length
 
-    let totalFavorites = 0;
+    useEffect( () => {
 
-    const getTotalFavorites = allPokemons.map( pokemon => {
-        if(pokemon.isFavorite) {
-            totalFavorites++
-        }
-    })
+        let currentTotal = 0;
+
+        allPokemons.forEach(pokemon => {
+            if(pokemon.isFavorite) {
+                currentTotal++
+            }
+        })
+        setTotalFavorites(currentTotal)
+
+    }, [allPokemons])
 
     return (
         <Header>
