@@ -17,12 +17,16 @@
     "uuid": "^8.3.2",
     "web-vitals": "^1.1.1"
   },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
   "scripts": {
     "update": "git pull && npm install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "clean": "rimraf build"
   },
   "eslintConfig": {
     "extends": [
