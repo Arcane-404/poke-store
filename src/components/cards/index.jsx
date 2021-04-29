@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Inner, Card, Image, Favorite, Price, Name, Body, Button } from './styles/cards'
+import { Container, Inner, Card, Image, Favorite, Price, Name, Body, Button } from './styles/Cards'
 
 export default function Cards({ children, ...restProps }) {
     return <Container {...restProps}> { children }</Container>

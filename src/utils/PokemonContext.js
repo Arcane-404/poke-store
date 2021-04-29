@@ -57,8 +57,18 @@ function PokemonContextProvider({ children }) {
     }
     // console.log(allFavorites)
 
+    // add & check to cart
     const addToCart = (pokeToCart) => {
-        setAllCartItems(prevItems => [...prevItems, pokeToCart])
+        // console.log(pokeToCart)
+        const isAlreadyInCart = allCartItems.find(item => item.pokemon === pokeToCart.pokemon)
+        if (isAlreadyInCart) return
+        else {
+            const addPkmnToCart = {
+                ...pokeToCart,
+                quantity: 1
+            }
+            setAllCartItems(prevItems => [...prevItems, addPkmnToCart])
+        }
     }
     // console.log(allCartItems)
 

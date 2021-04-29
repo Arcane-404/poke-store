@@ -1,7 +1,7 @@
 import React from 'react'
 import { Hero } from '../components'
 
-const HeroContainer = ({ title, subtitle }) => {
+const HeroContainer = ({ title="Poke Store", subtitle }) => {
     return (
         <Hero>
             <Hero.Title>{ title }</Hero.Title>
