@@ -1,19 +1,24 @@
-# Poke Store - Checkout App
+# Poké Store - Checkout App
 
 [ ![Status][Badge-Status] ][Site-Page]
 [ ![Contributors][Badge-Contributors] ](#Contributors)
+[ ![Netlify Status][Badge-Netlify] ][Netlify]
 
-Enter the Poke Store, a web app that allows you to...TBD
+[ **Come visit the Poké Store App** ][Site-Page]
+
+Enter the Poké Store, a checkout app that allows you to find the pokemon that is ready to add to favorites, add to cart, and order. We Built this app using React, Styled Components, and React Router. It helped to modularize a clear workflow and to reduce the maintanance for styling. 
+
+Enjoy the app 🔴⚪
 
 ## Get Started
 
 1. clone repo
 ```md
-HTTPS  : git clone https://github.com/theroom404/poke-store.git
+HTTPS  : git clone https://github.com/arcane-404/poke-store.git
 
-SSH    : git clone git@github.com:theroom404/poke-store.git
+SSH    : git clone git@github.com:arcane-404/poke-store.git
 
-GH-CLI : gh repo clone theroom404/poke-store
+GH-CLI : gh repo clone arcane-404/poke-store
 ```
 2. `cd ./poke-store`
 3. `npm install`
@@ -22,29 +27,46 @@ GH-CLI : gh repo clone theroom404/poke-store
 ## Project Goals
 
 - collaborate with other front-end react developers
+- complete project within a ~2 week scope
+  - wk 1: planning & designing
+  - wk 2: executing
+  - wk 3: debug/refactor
+- develop a workflow pipeline
+
+<!-- 
+### Main
+### Challenges
+### Outcome
+-->
 
 ## Key Features
 
 - General
-- Error Handling
-- Responsive Design
-- etc
+  - have 3 pages: Home, Favorites, Checkout
+  - able to checkout & purchase a pokemon
+- Core Tasks
+  - save/unsave pokemon to favorites
+  - add pokemon to cart
+  - update quantity of pokemon in cart
+  - remove pokemon from cart
+- Web Design
+  - mobile first approach
+  - responsive design thinking
 
 ## Technologies Used
 
 [ ![React][Badge-React] ][React]
 [ ![JavaScript][Badge-JavaScript] ][JavaScript]
 [ ![Sass][Badge-Sass] ][Sass]
-[ ![React-Router-Dom][Badge-React-Router-Dom] ][React-Router-Dom]
+[ ![Styled-Components][Badge-Styled-Components] ][Styled-Components]
+[ ![React-Router][Badge-React-Router] ][React-Router]
 - hooks:
 useState /
 useEffect / 
-useContext
+useContext /
+useCallback
 - other: 
-[`localForage`][localForage] / 
 [`normalize.css`][normalize-css] / 
-[`styled-components`][styled-components] /
-[`classnames`][classnames] /
 [`remix-icon`][remix-icon] /
 [`uuid`][uuid]
 
@@ -74,14 +96,16 @@ useContext
 
 <!--  -->
 
-<!-- [ ![TypeScript][Badge-TypeScript] ][TypeScript] -->
-
+<!-- status: Live_App | Debug | In_Development -->
 <!-- badge color: success | important | informational -->
-[Badge-Status]: https://img.shields.io/badge/Status-In_Development-informational?style=for-the-badge
-[Badge-Contributors]: https://img.shields.io/badge/Contributors-4-lightgreen?style=for-the-badge
-[Site-Page]: https://
+[Badge-Status]: https://img.shields.io/badge/Status-Live_Web_App-success?style=for-the-badge
+[Badge-Contributors]: https://img.shields.io/github/contributors/Arcane-404/poke-store?color=lightgreen&style=for-the-badge
+[Site-Page]: https://the-poke-store.netlify.app/
 
-[Figma]: https://www.figma.com/file/teMV2bbWUKLSKlkn8NHn0I/Poke-Store?node-id=0%3A1
+[Badge-Netlify]: https://api.netlify.com/api/v1/badges/47b0d6c7-6655-4410-9aa7-f85789a646b2/deploy-status
+[Netlify]: https://app.netlify.com/sites/the-poke-store/deploys
+
+[Figma]: https://www.figma.com/file/teMV2bbWUKLSKlkn8NHn0I/Poké-Store?node-id=0%3A1
 [Trello]: https://trello.com/b/fz2gTMMX/poke-store
 [Google Docs]: ___
 
@@ -89,17 +113,19 @@ useContext
 [Sass]: https://sass-lang.com/
 [JavaScript]: https://en.wikipedia.org/wiki/JavaScript
 [TypeScript]: https://www.typescriptlang.org/
-[React-Router-Dom]: https://reactrouter.com/
+[Styled-Components]: https://styled-components.com/
+[React-Router]: https://reactrouter.com/
+
 [Badge-React]: https://img.shields.io/badge/-React-20232A.svg?&style=for-the-badge&logo=React&logoColor=61DAFB
 [Badge-Sass]: https://img.shields.io/badge/-Sass-hotpink.svg?&style=for-the-badge&logo=Sass&logoColor=FFF
 [Badge-JavaScript]: https://img.shields.io/badge/-JavaScript-323330.svg?&style=for-the-badge&logo=JavaScript&logoColor=F0DB4F
 [Badge-TypeScript]: https://img.shields.io/badge/-TypeScript-323330.svg?&style=for-the-badge&logo=TypeScript&logoColor=007ACC
-[Badge-React-Router-Dom]: https://img.shields.io/badge/-React_Router-CA4245.svg?style=for-the-badge&logo=React-Router&logoColor=FFF
+[Badge-Styled-Components]: https://img.shields.io/badge/-Styled_Components-DB7093.svg?&style=for-the-badge&logo=Styled-Components&logoColor=FFF
+[Badge-React-Router]: https://img.shields.io/badge/-React_Router-CA4245.svg?style=for-the-badge&logo=React-Router&logoColor=FFF
 
-[localForage]: https://localforage.github.io/localForage/
+<!-- [localForage]: https://localforage.github.io/localForage/ -->
+<!-- [classnames]: https://jedwatson.github.io/classnames/ -->
 [normalize-css]: https://necolas.github.io/normalize.css/
-[styled-components]: https://styled-components.com/
-[classnames]: https://jedwatson.github.io/classnames/
 [remix-icon]: https://www.npmjs.com/package/remixicon-react
 [uuid]: https://www.npmjs.com/package/uuid
 
