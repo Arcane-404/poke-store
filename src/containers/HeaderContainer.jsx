@@ -5,10 +5,17 @@ import { PokemonConsumer } from '../utils/PokemonContext'
 
 const HeaderContainer = () => {
 
-    const { allCartItems, allFavorites } = PokemonConsumer()
+    const { allPokemons, allCartItems } = PokemonConsumer()
 
     const allCartItemsNumber = allCartItems.length
-    const allFavoritesNumber = allFavorites.length
+
+    let totalFavorites = 0;
+
+    const getTotalFavorites = allPokemons.map( pokemon => {
+        if(pokemon.isFavorite) {
+            totalFavorites++
+        }
+    })
 
     return (
         <Header>
@@ -21,7 +28,7 @@ const HeaderContainer = () => {
                     </Header.Links>
 
                     <Header.Links to='/favorites'>
-                        {allFavoritesNumber}
+                        {totalFavorites}
                         <HeartFillIcon/>
                     </Header.Links>
 
