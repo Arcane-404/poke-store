@@ -1,12 +1,12 @@
 import React from 'react'
-import HeaderContainer from '../containers/HeaderContainer'
-import FavoritesContainer from '../containers/FavoritesContainer'
+import { HeaderContainer, FavoritesContainer, HeroContainer } from '../containers/'
+
 
 const Favorites = () => {
     return (
         <>
             <HeaderContainer />
-            <h1>Favorites page</h1>
+            <HeroContainer title={ "Poke Store" } subtitle={ "Favorites" } />
             <FavoritesContainer/>
         </>
     )

@@ -53,7 +53,7 @@ function PokemonContextProvider({ children }) {
             return pokemon
         })
         setAllPokemons(updatedFavorites)
-        setAllFavorites(prevFavorites => [...prevFavorites, pokemon])
+        // setAllFavorites(prevFavorites => [...prevFavorites, pokemon])
     }
     // console.log(allFavorites)
 
