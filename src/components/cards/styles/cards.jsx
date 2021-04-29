@@ -33,7 +33,7 @@ export const Card = styled.div`
 `
 
 export const Image = styled.img`
-    heigt: 120px;
+    height: 120px;
     width: 120px;
 `
 
