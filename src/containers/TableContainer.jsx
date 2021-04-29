@@ -1,7 +1,7 @@
 import { v4 as uuid } from 'uuid'
+import { Table } from '../components/'
 import { PokemonConsumer } from '../utils/PokemonContext'
 import { SubtractLineIcon, AddLineIcon, CloseLineIcon } from '../components/Icons/'
-import { Table } from '../components/'
 
 const TableContainer = () => {
   

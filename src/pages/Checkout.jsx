@@ -1,11 +1,10 @@
 import React from 'react'
-import { HeaderContainer, HeroContainer, TableContainer, TotalContainer } from '../containers/'
+import { HeroContainer, TableContainer, TotalContainer } from '../containers/'
 
 const Cart = () => {
     return (
         <>
-            <HeaderContainer />
-            <HeroContainer title={ "Poke Store" } subtitle={ "Checkout" } />
+            <HeroContainer subtitle={ "Checkout" } />
             <TableContainer />
             <TotalContainer />
         </>

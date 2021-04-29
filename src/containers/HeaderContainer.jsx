@@ -1,7 +1,7 @@
 import React from 'react'
-import { Header } from '../components'
-import { HeartFillIcon , ShoppingCartFillIcon, HomeHeartFillIcon} from '../components/Icons/index'
+import { Header } from '../components/'
 import { PokemonConsumer } from '../utils/PokemonContext'
+import { HeartFillIcon, ShoppingCartFillIcon, HomeHeartFillIcon } from '../components/Icons/'
 
 const HeaderContainer = () => {
 
