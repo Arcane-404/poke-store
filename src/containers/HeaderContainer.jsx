@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { Header } from '../components/'
 import { PokemonConsumer } from '../utils/PokemonContext'
 import { HeartFillIcon, ShoppingCartFillIcon, HomeHeartFillIcon } from '../components/Icons/'
+import pokeIcon from '../assets/images/pokeball.png'
 
 const HeaderContainer = () => {
 
@@ -26,7 +27,7 @@ const HeaderContainer = () => {
     return (
         <Header>
             <Header.Inner>
-                <Header.Logo to='/'>PokeApp</Header.Logo>
+                <Header.Logo to='/' src={ pokeIcon } alt="poke-logo"  />
                 <Header.LinksFrame>
 
                     <Header.Links to='/'>

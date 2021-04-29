@@ -4,6 +4,9 @@ import {Link} from 'react-router-dom';
 
 export const Container = styled.div`
     background: var(--header-bg);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 `
 
 export const Inner = styled.div`
@@ -11,10 +14,13 @@ export const Inner = styled.div`
     justify-content: space-between;
 `
 
-// export const Logo = styled.img``
-export const Logo = styled.h1`
-    margin-left: 1rem;
+export const Logo = styled.img`
+    width: 55px;
+    margin: 0.5em 0 0.5em 1em;
 `
+// export const Logo = styled.h1`
+    // margin-left: 1rem;
+// `
 
 export const LinksFrame = styled.div`
     display: flex;

@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback, useContext, createContext } from 'react'
-import pokemonInfo from '../data/pokemonInfo.json'
-import pokemonCart from '../data/pokemonCart.json'
-// import { getID } from './tools.js'
+import pokemonInfo from '../json/pokemonInfo'
+import pokemonCart from '../json/pokemonCart'
 
 const PokemonContext = createContext()
 
@@ -11,8 +10,8 @@ function PokemonContextProvider({ children }) {
 
     const [ allPokemons, setAllPokemons ] = useState( pokemonInfo )
     const [ allCartItems, setAllCartItems ] = useState( pokemonCart )
-    const [ totalCost, setTotalCost ] = useState(0)
     const [ allFavorites, setAllFavorites ] = useState([])
+    const [ totalCost, setTotalCost ] = useState(0)
 
     const resetCart = () => {
         setAllCartItems([])

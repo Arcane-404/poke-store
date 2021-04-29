@@ -1,1 +1,0 @@
-export const getID = (e) => e.target.closest('button').dataset.id

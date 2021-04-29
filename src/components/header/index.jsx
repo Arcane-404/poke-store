@@ -16,7 +16,7 @@ Header.Inner = function HeaderInner({ children, ...restProps }) {
 Header.Logo = function HeaderLogo({ children, to, ...restProps }) {
     return (
         <ReachRouterLink to={to}>
-            <Logo {...restProps}> { children } </Logo>
+            <Logo {...restProps} />
         </ReachRouterLink>
     )
 }
