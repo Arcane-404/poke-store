@@ -6,14 +6,12 @@ export const Container = styled.div`
 `
 
 export const Frame = styled.div`
-  border: 3px solid silver;
   text-align: center;
   display: flex;
   flex-flow: wrap;
 `
 
 export const Text = styled.h3`
-  border: 1px solid #000;
   order: 1;
   font-size: 1.5rem;
   flex-basis: 100%;

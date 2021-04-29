@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-    border: 5px solid silver;
     background: var(--hero-bg);
     text-align: center;
     padding: 0.5em 0 1em;
