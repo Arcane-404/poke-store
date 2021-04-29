@@ -59,14 +59,9 @@ function PokemonContextProvider({ children }) {
 
     // add & check to cart
     const addToCart = (pokeToCart) => {
-        // console.log(pokeToCart)
         const isAlreadyInCart = allCartItems.find(item => item.pokemon === pokeToCart.pokemon)
-        if (isAlreadyInCart) return
-        else {
-            const addPkmnToCart = {
-                ...pokeToCart,
-                quantity: 1
-            }
+        if (!isAlreadyInCart) {
+            const addPkmnToCart = { ...pokeToCart, quantity: 1 }
             setAllCartItems(prevItems => [...prevItems, addPkmnToCart])
         }
     }
