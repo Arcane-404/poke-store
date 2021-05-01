@@ -13,7 +13,7 @@ Enjoy the app 🔴⚪
 ## Get Started
 
 1. clone repo
-```md
+```txt
 HTTPS  : git clone https://github.com/arcane-404/poke-store.git
 
 SSH    : git clone git@github.com:arcane-404/poke-store.git
