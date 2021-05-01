@@ -6,7 +6,7 @@
 
 [ **Come visit the Poké Store App** ][Site-Page]
 
-Enter the Poké Store, a checkout app that allows you to find the pokemon that is ready to add to favorites, add to cart, and order. We Built this app using React, Styled Components, and React Router. It helped to modularize a clear workflow and to reduce the maintanance for styling. 
+Enter the Poké Store, a checkout app that allows you to find the pokemon that is ready to add to favorites, add to cart, and order. We Built this app using React, Sass, Styled Components, and React Router. It helped to modularize a clear workflow and to reduce the maintanance for styling. 
 
 Enjoy the app 🔴⚪
 
@@ -32,6 +32,7 @@ GH-CLI : gh repo clone arcane-404/poke-store
   - wk 2: executing
   - wk 3: debug/refactor
 - develop a workflow pipeline
+- reach an MVP milestone
 
 <!-- 
 ### Main
