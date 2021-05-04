@@ -3,60 +3,180 @@
     {
         "id": 1,
         "pokemon": "Greninja",
-        "types": ["water"],
+        "types": ["Water"],
         "isFavorite": false,
-        "price": 10.00,
-        "description": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+        "price": 20.00,
+        "description": "Greninja is a bipedal, frog-like Pokémon. It is mostly dark blue with a yellow chest, a white triangular marking over each eye, a light blue four-pointed star on each thigh, and yellow on the lower half of its face.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png"
     },
 
     {
         "id": 2,
         "pokemon": "Lucario",
-        "types": ["water"],
+        "types": ["Fighting"],
         "isFavorite": false,
-        "price": 10.00,
-        "description": "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.",
+        "price": 28.00,
+        "description": "Lucario is a bipedal, canine-like Pokémon with predominantly blue and black fur. It possesses a short, round spike on the back of each forepaw, in addition to a third on its chest.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
     },
 
     {
         "id": 3,
         "pokemon": "Mimikyu",
-        "types": ["water"],
+        "types": ["Ghost"],
         "isFavorite": false,
-        "price": 10.00,
-        "description": "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier.",
+        "price": 66.00,
+        "description": "Mimikyu is a small Pokémon whose body is almost entirely hidden under an old rag. Its small size makes it one of, if not the shortest Ghost-type.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png"
     },
 
     {
         "id": 4,
         "pokemon": "Charizard",
-        "types": ["water"],
+        "types": ["Fire"],
         "isFavorite": false,
-        "price": 10.00,
-        "description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+        "price": 99.00,
+        "description": "Charizard is a draconic, bipedal Pokémon. It is primarily orange with a cream underside from the chest to the tip of its tail. It spits fire that is hot enough to melt boulders.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
     },
 
     {
         "id": 5,
         "pokemon": "Umbreon",
-        "types": ["water"],
+        "types": ["Dark"],
         "isFavorite": false,
-        "price": 10.00,
-        "description": "When this Pokémon becomes angry, its pores secrete a poisonous sweat, which it sprays at its opponent’s eyes.",
+        "price": 45.00,
+        "description": "Umbreon is a Pokémon which has a sleek, black body with four slender legs and crimson eyes.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
     },
 
     {
         "id": 6,
         "pokemon": "Sylveon",
-        "types": ["water"],
+        "types": ["Fairy"],
         "isFavorite": false,
-        "price": 10.00,
-        "description": "By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict.",
+        "price": 50.00,
+        "description": "Sylveon is a quadrupedal, mammalian Pokémon covered with pale cream-colored fur with pink feet, ears, and tail. It has light blue eyes, long ears with blue interiors and thicker fur.",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
+    },
+
+    {
+        "id": 7,
+        "pokemon": "Psyduck",
+        "types": ["Water"],
+        "isFavorite": false,
+        "price": 76.00,
+        "description": "Psyduck is constantly stunned by its headache and is unable to think very clearly. It usually stands immobile, trying to calm its headache.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+    },
+
+    {
+        "id": 8,
+        "pokemon": "Mewtwo",
+        "types": ["Psychic"],
+        "isFavorite": false,
+        "price": 80.00,
+        "description": "Mewtwo was created after years of horrific gene splicing and DNA engineering experiments based on Mew.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+    },
+
+    {
+        "id": 9,
+        "pokemon": "Pikachu",
+        "types": ["Electric"],
+        "isFavorite": false,
+        "price": 100.00,
+        "description": "Pikachu, the Mouse Pokémon. An Electric type. Pikachu have pouches on their cheeks that can store electricity, which they release if threatened. Male and female Pikachu have differently shaped tails.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+    },
+
+    {
+        "id": 10,
+        "pokemon": "Suicune",
+        "types": ["Water"],
+        "isFavorite": false,
+        "price": 55.00,
+        "description": "Suicune is a slim, quadrupedal, blue, mammalian Pokémon with white, diamond-shaped markings.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/245.png"
+    },
+
+    {
+        "id": 11,
+        "pokemon": "Rayquaza",
+        "types": ["Dragon"],
+        "isFavorite": false,
+        "price": 38.00,
+        "description": "It is able to soothe the other members of the super-ancient Pokémon, even in their Primal Forms.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png"
+    },
+
+    {
+        "id": 12,
+        "pokemon": "Gengar",
+        "types": ["Ghost"],
+        "isFavorite": false,
+        "price": 30.00,
+        "description": "Gengar is a dark purple, bipedal Pokémon with a roundish body. It has red eyes, a wide mouth that is usually curled into a sinister grin, and pointed ears.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+    },
+
+    {
+        "id": 13,
+        "pokemon": "Blaziken",
+        "types": ["Fire"],
+        "isFavorite": false,
+        "price": 53.00,
+        "description": "Blaziken is a bipedal, chicken-like Pokémon. The majority of Blaziken's body is red with accents of beige, yellow, and gray. Behind its head, there are beige, hair-like feathers that continue downward and surround its chest and abdomen.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png"
+    },
+
+    {
+        "id": 14,
+        "pokemon": "Garchomp",
+        "types": ["Dragon"],
+        "isFavorite": false,
+        "price": 74.00,
+        "description": "Garchomp is a bipedal, draconian Pokémon that is primarily dark blue in color. It has red on its underbelly from the lower jaw to the middle of the abdomen, including the undersides of its arms.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png"
+    },
+
+    {
+        "id": 15,
+        "pokemon": "Zygarde",
+        "types": ["Dragon"],
+        "isFavorite": false,
+        "price": 77.00,
+        "description": "Zygarde is a Pokémon whose form depends on the percentage of its Cores and Cells gathered together. Zygarde Core is the brain of Zygarde.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png"
+    },
+
+    {
+        "id": 16,
+        "pokemon": "Wobbuffet",
+        "types": ["Phychic"],
+        "isFavorite": false,
+        "price": 44.00,
+        "description": "Wobbuffet is a tall, cyan Pokémon with a soft body. Its eyes usually appear scrunched, and it has a jagged upper lip. The female Wobbuffet has a red marking on its mouth that resembles lipstick, while the male does not.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png"
+    },
+
+    {
+        "id": 17,
+        "pokemon": "Litten",
+        "types": ["Fire"],
+        "isFavorite": false,
+        "price": 74.00,
+        "description": "Litten is a quadrupedal, feline Pokémon covered with primarily black fur. It has a short muzzle with a tiny, black nose, red eyes with yellow sclerae, and short, pointed ears with pale gray insides.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/725.png"
+    },
+
+    {
+        "id": 18,
+        "pokemon": "Dialga",
+        "types": ["Steel"],
+        "isFavorite": false,
+        "price": 84.00,
+        "description": "Dialga is a dark-blue, sauropod-like Pokémon with some gray metallic portions, such as its chest plate, which has a diamond in the center.",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/483.png"
     }
 ]
