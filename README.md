@@ -76,11 +76,11 @@ useCallback
 - Our Collaborative Tools
   - [`Figma`][Figma]
   - [`Trello`][Trello]
-  - Miro
-- Pokemon API
-  - https://pokeapi.co/
-  - https://pokeapi.co/api/v2/pokemon/{name/id}
-  - https://pokeapi.co/api/v2/pokemon-species/{name/id}
+  - [`Google Docs`][Google-Docs]
+<!-- - Pokemon API -->
+  <!-- - https://pokeapi.co/ -->
+  <!-- - https://pokeapi.co/api/v2/pokemon/{name/id} -->
+  <!-- - https://pokeapi.co/api/v2/pokemon-species/{name/id} -->
 - Remix Icon
   - https://remixicon.com/
   - https://reactsvgicons.com/remixicon
@@ -108,7 +108,7 @@ useCallback
 
 [Figma]: https://www.figma.com/file/teMV2bbWUKLSKlkn8NHn0I/Poké-Store?node-id=0%3A1
 [Trello]: https://trello.com/b/fz2gTMMX/poke-store
-[Google Docs]: ___
+[Google-Docs]: https://docs.google.com/document/d/1Gq9E0nO3oLMTH8kf69a0ENGYE2vlbjBj4_OppVHPHes/edit?usp=sharing
 
 [React]: https://reactjs.org/
 [Sass]: https://sass-lang.com/
