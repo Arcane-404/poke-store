@@ -93,7 +93,7 @@ useCallback
 | **Michael F. Alvarez** | awwmicky   | [ ![GitHub][Badge-GitHub] ][Micky-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Micky-LinkedIn] |
 | **Herman Liu**         | hermsicle  | [ ![GitHub][Badge-GitHub] ][Herman-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Herman-LinkedIn] |
 | **Martin Nguyen**      | - | [ ![GitHub][Badge-GitHub] ][Martin-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Martin-LinkedIn] |
-| **Adnan Diaz**         | - | [ ![GitHub][Badge-GitHub] ][Adnan-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Adnan-LinkedIn] |
+| **Adnan Diaz**         | adnanniaz77 | [ ![GitHub][Badge-GitHub] ][Adnan-GitHub] [ ![LinkedIn][Badge-LinkedIn] ][Adnan-LinkedIn] |
 
 <!--  -->
 
@@ -135,9 +135,9 @@ useCallback
 
 [Micky-GitHub]: https://github.com/awwmicky
 [Micky-LinkedIn]: https://www.linkedin.com/in/awwmicky/
-[Herman-GitHub]: https://github.com/___
-[Herman-LinkedIn]: https://www.linkedin.com/in/___/
-[Martin-GitHub]: https://github.com/___
-[Martin-LinkedIn]: https://www.linkedin.com/in/___/
-[Adnan-GitHub]: https://github.com/___
-[Adnan-LinkedIn]: https://www.linkedin.com/in/___/
+[Herman-GitHub]: https://github.com/hermsicle
+[Herman-LinkedIn]: https://www.linkedin.com/in/hermanliu168/
+[Martin-GitHub]: https://github.com/Martinn80
+[Martin-LinkedIn]: https://www.linkedin.com/in/ngumartin/
+[Adnan-GitHub]: https://github.com/adnanniaz77
+[Adnan-LinkedIn]: https://www.linkedin.com/in/adnanniaz77/
